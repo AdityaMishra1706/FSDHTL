@@ -1,0 +1,42 @@
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container to hold all the divs */
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* General styling for all div boxes */
+  .box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+  }
+  
+  /* Specific styles for each box */
+  .box1 {
+    background-color: #781313;
+  }
+  
+  .box2 {
+    background-color: #fff200;
+  }
+  
+  .box3 {
+    background-color: #32cd32;
+  }
+  
